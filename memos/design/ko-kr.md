@@ -1,7 +1,7 @@
 # Design
 
 ## Singleton Pattern (Singleton)
-소프트웨어 디자인 패턴에서 특정 생성자(Class)의 인스턴스(Instance)가 유일함(오직 한 개)을 보장하는 디자인 패턴, 혹은 바로 그 객체  
+소프트웨어 디자인 패턴에서 특정 생성자(Class)의 인스턴스(Instance)가 유일함(Unique)을 보장하는 디자인 패턴, 혹은 바로 그 객체  
 ```C# (Unity)
 
 public static GameManager instance; // 싱글톤을 할당할 전역 변수
