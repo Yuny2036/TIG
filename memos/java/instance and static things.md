@@ -31,7 +31,7 @@
      String name;
 
      static void setRandomMoney(){
-       money = new Random.nextInt(5001);
+       money = new Random().nextInt(5001);
        System.out.println(Cleric.money);
      }
    }
@@ -43,7 +43,7 @@
        String name;
 
        static void setRandomMoney(){
-         money = new Random.nextInt(5001);
+         money = new Random().nextInt(5001);
          System.out.println(this.money); // 오류, 인스턴스 객체에 접근하려고 함
        }
      }
