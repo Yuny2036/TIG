@@ -14,7 +14,6 @@
   
 ## 정적 _static_
 1. **필드**에 `static` 키워드를 사용해 해당 필드를 같은 클래스가 공유
-   - 이 `static` 필드는 불러올 때 참조형으로 호출됨
    - 클래스 이름을 이용해 `static` 필드에 접근하기
      ```Java
      Cleric sally = new Cleric("Whitemane", 1050);
