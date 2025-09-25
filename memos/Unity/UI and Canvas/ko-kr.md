@@ -1,9 +1,19 @@
 # Unity - UI and Canvas
 ------
 ## 본 문서의 작성 시기
-> 6000.0 Unity  
+> 6000.0 Unity, 수정 시기 6000.2 Unity  
+
+------
+------
+## TextMeshPro <sub>TMP</sub>를 Canvas 크기만큼 키우고 싶을 때
+![문제 상황을 서술하는 화면, 하얀 상자의 Canvas 안에 노란 상자의 TMP가 공간을 다 채우지 못하고 있다.](./attachments/image.png)
+1. **Hierarchy** 창에서 TMP 오브젝트를 선택하기
+2. Inspector > Rect Transform 에서 **Anchor Preset을** `Alt + Shift` \(Pivot과 Position도 적용\)입력한 채로 **전방향 Stretch**
+3. **Left, Right, Top, Bottom 모두** `0` 으로 설정
 
 ## 이것저것 다 넣은 모듬 팝업(모달)
+> 교정해야 할 부분이 있을 거 같다.. 기록할 때 놓친 부분이 있는건지 똑같은 구조에서도 동작하지 않을 때가 있었는데...
+
 모달이나 팝업 따위의 UI에 영상도 사진도 글자도 버튼(그리고 그 안에 또 글자)도 넣고 싶은데 그러면서 정렬이 깔끔하게 되길 원해 여러 시도를 해보았고, 나름의 만족스러운 Hierachy 배치와 Component 구성을 발견하여 기록해두었다.
 ```Hierachy
 Canvas
